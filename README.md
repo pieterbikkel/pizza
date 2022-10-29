@@ -1,3 +1,3 @@
-#Pizza frontend
+# Pizza frontend
 
 ## Made with React (Not responsive atm)
