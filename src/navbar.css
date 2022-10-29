@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    column-gap: 0.2rem;
+}
+
+.brand img {
+    height: 40px;
+    width: 40px;
+    transform: rotate(-20deg) translateY(-5px);
+}
+
+.brandname {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    color: var(--white);
+}
+
+.navlinks {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.navlink {
+    color: var(--white);
+}
